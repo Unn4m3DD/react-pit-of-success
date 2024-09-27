@@ -38,3 +38,14 @@ Don't:
     - Webpack might be a fine alternative to vite but I'd avoid CRA specifically 
   - Use yarn
     - elaborate...
+
+## On useEffect
+Do:
+  - Use it when you know you need it and there's no reasonable alternative
+  - Use it when library maintainers recommend you do and provide an example implementation
+    - Examples would be @tanstack/query deprecating onSuccess in favour of useEffect
+Don't:
+  - Use it to fetch data
+    - Prefer react-query
+  - Use it to handle form validation
+  - Use it 
