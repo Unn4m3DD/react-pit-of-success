@@ -1,29 +1,29 @@
 # react-pit-of-success
-## Index
-
-[considerations]()  
-[starting from scratch]()  
-[on useEffect]()  
-[components as the base of abstraction]()  
-[styling your components]()  
-[handling data fetching]()  
-[handling validation]()  
-[handling forms]()  
-[routing]()
-
 
 ### Considerations
-This will be a bit yadayada-y if you want, you can skip to the [meat]()  
+This will be a bit yadayada-y if you want, you can skip to the [meat](#index)  
 This repo is an oppinionated guide on how to fall into the pit-of-success while working in react. Many times you'll google how to implement certain behaviour in react and the first solution will be the worst making you fall into the pit, this repo intends to fix this by beeing a one stop shop on the best way to handle certain behaviour. This advice is specific to react spas but some concepts might be transferable to fancier tech like nextjs or remix.  
 Code exapmles may not "compile", most of them are pseudocode explain a point
+
+## Index
+
+[considerations](#considerations)  
+[starting from scratch](#starting-from-scratch)  
+[on useEffect](#on-useeffect)  
+[components as the base of abstraction](#components-as-the-unit-of-abstraction)  
+[styling](#styling)  
+[data fetching](#data-fetching)  
+[validation](#validation)  
+[forms](#forms)  
+[routing](#routing)
 
 ### Starting from scratch
 Do:
   - Use bun or pnpm
     - Pick one, I like bun but either way your setting yourself up for success
-  - Use [vite]() to bootstrap your app
+  - Use [vite](https://vitejs.dev/guide/) to bootstrap your app
     - Fast, well maintained, well configured out of the box, every dependency you need will have first class vite support
-    - `vite ...`
+    - `bun create vite`
   - Use typescript 
     - ...
   - Use an empty prettierrc.json
@@ -123,4 +123,21 @@ const MyButton = ({ variant }) => (
 <MyButton variant="nav"/> 
 ```
 
-**Components as the uni of abstration** benefits are very obvious when it comes styles but it is applicable to many other concepts. Maybe I'll write another example here using react-query as the subject
+**Components as the unit of abstration** benefits are very obvious when it comes styles but it is applicable to many other concepts. Maybe I'll write another example here using react-query as the subject
+
+
+### Styling
+🚧
+### Data fetching
+🚧
+### Validation
+🚧
+### Forms
+🚧
+### Routing
+🚧
+
+
+#### Todo:
+- [ ] Add react query exapmle [here](#components-as-the-unit-of-abstraction)
+- [ ] Add links to popular tools and docs
